@@ -24,3 +24,11 @@ gcloud sql instances describe
 ```
 
 result = **35.X.X.X**
+
+
+### Ingestion
+1. Reset the files to *flights.csv-X*
+2. run the following command
+```mysqlimport --local --host=$MYSQLIP --user=root --password \                                                      
+  --ignore-lines=1 --fields-terminated-by=',' \
+  bts flights.csv-*```

@@ -5,7 +5,13 @@ Test Asciidoc Notes
 :Date:      5/26/2018
 :Revision:  0.1
 :icons: font
-:source-highlighter: pygments
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
 = Title
 
